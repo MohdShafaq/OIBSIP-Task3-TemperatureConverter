@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+p{
+    color: rgb(19, 17, 17);
+    font-weight:bold;
+}
+
+button.white{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding:11px 18px;
+    color:black;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+    margin-bottom: 20px;
+}
+body {
+    background-color: yellowgreen;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    background-color: rgba(250, 215, 215, 0.074);
+    
+
+}
+  
+.container button:hover{
+    background:rgba(255, 255, 255, 0.24);
+    color:black;
+    border-radius: 5px;
+}
+
+
+
+.container{
+    border:1px solid rgba(176, 203, 203, 0.052);
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    width: 550px;
+    height: 450px;
+    border-radius: 10px;
+    
+}
+
+#result{
+    color:black;
+    background-color: #fff;
+    padding: 6px ;
+    font-size: 17px;
+    font-weight: 550;
+}
+
